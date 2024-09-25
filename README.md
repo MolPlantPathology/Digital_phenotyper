@@ -78,11 +78,10 @@ This folder contains all the input images to be analyzed. All images in the fold
 	- *Run*: `./analyze.py [path_to_env]`
 	- *Output*: an overlay image and .csv file containing all quantified parameters in the `CSV_DIR` specified in the .env file.
 
+![7 DPI overlay](https://raw.githubusercontent.com/MolPlantPathology/Digital_phenotyper/main/example_output/my_image.png)
 
 ## Citation
 If this pipeline was useful for your work, please cite:
 ```
 Nanne W. Taks, Mathijs Batstra, Ronald Kortekaas, Floris D. Stevens, Sebastian Pfeilmeier and Harrold A. van den Burg, **Visualization and quantification of spatiotemporal disease progression in Arabidopsis using a bioluminescence-based imaging system** *Journal title* (2024).
 ```
-
-![Alt text](example_output/example_output_07dpi.png?raw=true "O7 dpi overlay")
