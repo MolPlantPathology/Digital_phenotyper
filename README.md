@@ -85,4 +85,4 @@ If this pipeline was useful for your work, please cite:
 Nanne W. Taks, Mathijs Batstra, Ronald Kortekaas, Floris D. Stevens, Sebastian Pfeilmeier and Harrold A. van den Burg, **Visualization and quantification of spatiotemporal disease progression in Arabidopsis using a bioluminescence-based imaging system** *Journal title* (2024).
 ```
 
-![Alt text](/example_output/example_output_07dpi.png?raw=true "O7 dpi overlay")
+![Alt text](example_output/example_output_07dpi.png?raw=true "O7 dpi overlay")
