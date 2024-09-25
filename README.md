@@ -7,8 +7,9 @@ This repository contains a number of files that are needed to run the entire ana
 	- `requirements.txt`
 2. Environment file with analysis parameters:
 	- `example.env`
-3. Image input folder
-	- `example_input`
+3. Image input and output folders
+	- `example_input` contains example input images with correct names for analysis
+ 	- `example_output` contains overlay images that are part of the output when running the analysis on images in the `example_input` folder
 4. Scripts to run:
 	- `analyze.py`
 	- `calibrator.py`
@@ -56,9 +57,9 @@ This file `example.env` contains all parameters needed to run the analysis on yo
 - `CALIBRATION`: The perspective tranformation matrix used to map an ES image onto an RGB image. If this is not given, the calibrator.py script needs to be run on calibration images to calculate the matrix.
 
 ### 3. Image input folder
-This folder contains all the input images to be analyzed. All images in the folder will be batch-processed when running the analysis script. For each sample, the analysis requires two images that **match**: an RGB (plant) image and a CCD (luminescence) image. These files should be names as follows:
+This folder contains example images to be analyzed. You can create your own folder that contains all the images you want to analyze. All images in the folder will be batch-processed when running the analysis script. For each sample, the analysis requires two images that **match**: an RGB (plant) image and a CCD (luminescence) image. These files should be names as follows:
 - `XX_DPI_Y_RGB.png` for the RGB image and `XX_DPI_Y_ES.png` for the CCD image
-	- `XX` is either `07` or `14`. For hydathode infections, a specific `07` DPI environment file can be created to count individual objects. If you want to analyze total luminescence, use `14` DPI.
+	- `XX` is either `07` or `14`. For hydathode infections, a specific `07` DPI environment file can be created to count individual objects. If you want to analyze total luminescence, use any other number (e.g. `10` or `14` DPI)
 	- `Y` is any unique string of digits identifying a pair of images. 
 	
 ### 4. Scripts to run
