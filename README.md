@@ -30,7 +30,7 @@ conda activate environment_name
 ```
 Now, install the dependencies within the environment (check if terminal shows *environment_name* in front of the location):
 ```
-conda install -r requirements.txt
+pip install -r requirements.txt
 ```
 Whenever you want to leave the environment, type:
 ```
