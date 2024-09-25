@@ -1,5 +1,5 @@
 # Quantification of bioluminescent pathogens in *Arabidopsis thaliana*
-This pipeline provides a tool to batch process images of Arabidopsis rosettes that have been infected with bioluminescent plant pathogens such as vascular *Xanthomonas campestris* pv. campestris and the mesophyll pathogen *Pseudomonas syringae* pv. tomato. The tool can analyze both plant disease symptoms and pathogen colonization through bioluminescence. It was developed at the department of Molecular Plant Pathology at the University of Amsterdam, the Netherlands.
+This pipeline provides a tool to batch process images of Arabidopsis rosettes that have been infected with bioluminescent plant pathogens such as vascular *Xanthomonas campestris* pv. campestris (Xcc) and the mesophyll pathogen *Pseudomonas syringae* pv. tomato (Pst). The tool can analyze both plant disease symptoms and pathogen colonization through bioluminescence. It was developed at the department of Molecular Plant Pathology at the University of Amsterdam, the Netherlands.
 
 ## Contents
 This repository contains a number of files that are needed to run the entire analysis:
@@ -78,10 +78,19 @@ This folder contains all the input images to be analyzed. All images in the fold
 	- *Run*: `./analyze.py [path_to_env]`
 	- *Output*: an overlay image and .csv file containing all quantified parameters in the `CSV_DIR` specified in the .env file.
 
-![7 DPI overlay](/example_output/example_output_07dpi.png?raw=true "7 dpi overlay")
-
 ## Citation
 If this pipeline was useful for your work, please cite:
 ```
 Nanne W. Taks, Mathijs Batstra, Ronald Kortekaas, Floris D. Stevens, Sebastian Pfeilmeier and Harrold A. van den Burg, **Visualization and quantification of spatiotemporal disease progression in Arabidopsis using a bioluminescence-based imaging system** *Journal title* (2024).
 ```
+
+## Example output images
+
+# 7 DPI output (hydathode infections by Xcc)
+![7 DPI overlay](/example_output/example_output_07dpi.png?raw=true "7 DPI")
+
+# 10 DPI output (hydathode outbreaks and vascular spread by Xcc)
+![10 DPI overlay](/example_output/example_output_10dpi.png?raw=true "10 DPI")
+
+# 14 DPI output (vascular spread and mesophyll colonization by Xcc)
+![14 DPI overlay](/example_output/example_output_14dpi.png?raw=true "14 DPI")
