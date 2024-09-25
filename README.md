@@ -86,11 +86,5 @@ Nanne W. Taks, Mathijs Batstra, Ronald Kortekaas, Floris D. Stevens, Sebastian P
 
 ## Example output images
 
-### 7 DPI output (hydathode infections by Xcc)
-![7 DPI overlay](/example_output/example_output_07dpi.png?raw=true "7 DPI")
+![Example output](/example_output/example_output_images.png?raw=true "Example output")
 
-### 10 DPI output (hydathode outbreaks and vascular spread by Xcc)
-![10 DPI overlay](/example_output/example_output_10dpi.png?raw=true "10 DPI")
-
-### 14 DPI output (vascular spread and mesophyll colonization by Xcc)
-![14 DPI overlay](/example_output/example_output_14dpi.png?raw=true "14 DPI")
