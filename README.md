@@ -63,7 +63,7 @@ This folder contains example images to be analyzed. You can create your own fold
 	- `Y` is any unique string of digits identifying a pair of images. 
 	
 ### 4. Scripts to run
-
+**Before running these, make sure you have activated the conda environment with all the installed dependencies!**
 1. (*optional*) `calibration.py`
 	- This file only needs to be run if no calibration matrix to match the RGB and CCD images is in the .env file yet!
 	- *Input*: An RGB image and a CCD image of a standard calibration sheet (such as 4 x 11 asymmetric dots)
