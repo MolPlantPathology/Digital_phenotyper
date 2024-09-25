@@ -9,7 +9,7 @@ This repository contains a number of files that are needed to run the entire ana
 	- `example.env`
 3. Image input and output folders
 	- `example_input` contains example input images with correct names for analysis
- 	- `example_output` contains overlay images that are part of the output when running the analysis on images in the `example_input` folder
+ 	- `example_output` contains overlay images that are part of the output when running the analysis on the example images
 4. Scripts to run:
 	- `analyze.py`
 	- `calibrator.py`
