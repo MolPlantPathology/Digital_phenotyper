@@ -78,7 +78,7 @@ This folder contains all the input images to be analyzed. All images in the fold
 	- *Run*: `./analyze.py [path_to_env]`
 	- *Output*: an overlay image and .csv file containing all quantified parameters in the `CSV_DIR` specified in the .env file.
 
-![7 DPI overlay](https://raw.githubusercontent.com/MolPlantPathology/Digital_phenotyper/main/example_output/example_output_07dpi.png)
+![7 DPI overlay](/example_output/example_output_07dpi.png?raw=true "7 dpi overlay")
 
 ## Citation
 If this pipeline was useful for your work, please cite:
