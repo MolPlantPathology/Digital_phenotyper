@@ -22,17 +22,14 @@ Create a virtual conda environment in which you install your dependencies:
 
 ```
 conda create -- name environment_name python == 3.11
-
 ```
 Next, activate the environment:
 ```
 conda activate environment_name
-
 ```
 Now, install the dependencies within the environment (check if terminal shows *environment_name* in front of the location):
 ```
 conda install -r requirements.txt
-
 ```
 Whenever you want to leave the environment, type:
 ```
