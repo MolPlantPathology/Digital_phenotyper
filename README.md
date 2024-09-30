@@ -74,7 +74,7 @@ This folder contains example images to be analyzed. You can create your own fold
 	- This is the analysis file and when running this, it automatically incorporates the `image.py` and `settings.py` scripts.
 	- *Input*: All requirements mentioned above (dependencies, environments and input images).
 	- *Run*: `./analyze.py [path_to_env]`
- 		- In case the script is not authorized, run: ``` chmod +x analyze.py ``` 
+ 		- In case the script is not authorized, run: ``` chmod +x analyze.py ``` before running the script.
 	- *Output*: an overlay image and .csv file containing all quantified parameters in the `CSV_DIR` specified in the .env file.
 
 ## Citation
