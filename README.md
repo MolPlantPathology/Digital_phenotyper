@@ -43,6 +43,8 @@ This file `example.env` contains all parameters needed to run the analysis on yo
 - `MORPH`: Kernel size for morphing during preprocessing.
 - `ITERATIONS`: Iteration count for image morphing during preprocessing.
 - `GREEN/YELLOW`: Ranges specifying color values to be interpreted as green or yellow.
+- `LUMINESCENCE_BGR`: Color values added in BGR format for the color of the luminescence overlay: '[255, 255, 0]'
+- `LUMINESCENCE_ALPHA`: Opacity of luminescence overlay, value between 0 and 1
 - `CROP_H_MIN/MAX`: Specify horizontal edges of the image's region of interest.
 - `THRESHOLD`: Minimum area for a rosette to be recognized.
 - `NOISE_THRESHOLD_MIN`: Minimum size of a luminescent object to be considered *no noise*. If it falls below this threshold, it's removed from the analysis.
