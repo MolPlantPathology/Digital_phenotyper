@@ -37,6 +37,8 @@ class Settings(BaseSettings):
     iterations: int
     green: List[List[int]]
     yellow: List[List[int]]
+    luminescence_bgr: List[int]
+    luminescence_alpha: float
     kernel_type: int = cv2.MORPH_ELLIPSE
     morph_type: int = cv2.MORPH_CLOSE
     crop_h_min: int = 0

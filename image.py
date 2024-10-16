@@ -115,9 +115,14 @@ class Image:
     # create overlay of enclosing circles and luminescence contours
     def create_overlay(self, days):
         overlay_img, centers, areas = self._get_lum_info(days)
-        base_img = cv2.cvtColor(self.images.current, cv2.COLOR_GRAY2BGR)
+        h, w = self.images.current.shape
+        clr = np.asarray(get_settings().luminescence_bgr, dtype=np.uint8)
+        base_img = np.zeros((h, w, 3), dtype=np.uint8)
+        normalized = self.images.current / 255
+        for i in range(3):
+            base_img[:, :, i] = (clr[i] * normalized).astype(np.uint8)
         self.images.current = cv2.addWeighted(
-            overlay_img, 0.75, base_img, 1, 0)
+            overlay_img, get_settings().luminescence_alpha, base_img, 1, 0)
         return centers, areas
 
     def grey(self):
