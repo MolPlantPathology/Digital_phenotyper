@@ -39,8 +39,8 @@ class PlantAnalyze:
 
     # display overlay of rgb and luminescence images
     def _get_overlay(self):
-        overlay = cv2.addWeighted(self.img_lum.images.current, 0.75,
-                                  self.img_rgb.images.marked, 1, 0)
+        overlay = cv2.addWeighted(self.img_lum.images.current, get_settings().luminescence_alpha,
+                                  self.img_rgb.images.marked, 0.8, 0)
         return overlay
 
     # count number of luminscence contours and sum of contour areas inside enclosing circle of each plant
