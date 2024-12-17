@@ -1,5 +1,5 @@
 # Quantification of bioluminescent pathogens in *Arabidopsis thaliana*
-This pipeline provides a tool to batch process images of Arabidopsis rosettes that have been infected with bioluminescent plant pathogens such as vascular *Xanthomonas campestris* pv. campestris (Xcc) and the mesophyll pathogen *Pseudomonas syringae* pv. tomato (Pst). The tool can analyze both plant disease symptoms and pathogen colonization through bioluminescence. It was developed at the department of Molecular Plant Pathology at the University of Amsterdam, the Netherlands.
+This pipeline provides a tool to batch process images of Arabidopsis rosettes that have been infected with bioluminescent plant pathogens such as vascular *Xanthomonas campestris* pv. *campestris* (Xcc) and the mesophyll pathogen *Pseudomonas syringae* pv. *tomato* (Pst). The tool can analyze both plant disease symptoms and pathogen colonization through bioluminescence. It was developed at the department of Molecular Plant Pathology at the University of Amsterdam, the Netherlands.
 
 ## Contents
 This repository contains a number of files that are needed to run the entire analysis:
