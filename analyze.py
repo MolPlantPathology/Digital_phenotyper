@@ -39,7 +39,7 @@ class PlantAnalyze:
 
     # display overlay of rgb and luminescence images
     def _get_overlay(self):
-        overlay = cv2.addWeighted(self.img_lum.images.current, get_settings().luminescence_alpha,
+        overlay = cv2.addWeighted(self.img_lum.images.current, 1,
                                   self.img_rgb.images.marked, 0.5, 0)
         return overlay
 
